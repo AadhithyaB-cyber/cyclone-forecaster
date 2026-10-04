@@ -1,0 +1,168 @@
+{
+  "cyclones": [
+    {
+      "id": "cyclone-vardah-ii",
+      "name": "Cyclone Vardah-II",
+      "status": "approaching",
+      "current_wind_speed_kmh": 120,
+      "landfall_eta": "2026-10-06T05:00:00+05:30",
+      "landfall_location": "Near Mahabalipuram, Tamil Nadu coast",
+      "landfall_lat": 12.62,
+      "landfall_lng": 80.19,
+      "predicted_path": [
+        { "lat": 11.9, "lng": 83.1, "timestamp": "2026-10-04T06:00:00+05:30", "wind_speed_kmh": 95 },
+        { "lat": 12.1, "lng": 82.4, "timestamp": "2026-10-04T18:00:00+05:30", "wind_speed_kmh": 105 },
+        { "lat": 12.4, "lng": 81.8, "timestamp": "2026-10-05T06:00:00+05:30", "wind_speed_kmh": 120 },
+        { "lat": 12.6, "lng": 80.9, "timestamp": "2026-10-05T18:00:00+05:30", "wind_speed_kmh": 135 },
+        { "lat": 12.62, "lng": 80.19, "timestamp": "2026-10-06T05:00:00+05:30", "wind_speed_kmh": 140 }
+      ]
+    },
+    {
+      "id": "cyclone-mandous-ii",
+      "name": "Cyclone Mandous-II",
+      "status": "approaching",
+      "current_wind_speed_kmh": 90,
+      "landfall_eta": "2026-10-08T14:00:00+05:30",
+      "landfall_location": "Near Ennore-Pulicat coast, Tamil Nadu",
+      "landfall_lat": 13.40,
+      "landfall_lng": 80.32,
+      "predicted_path": [
+        { "lat": 13.0, "lng": 82.5, "timestamp": "2026-10-07T06:00:00+05:30", "wind_speed_kmh": 70 },
+        { "lat": 13.2, "lng": 81.5, "timestamp": "2026-10-07T18:00:00+05:30", "wind_speed_kmh": 80 },
+        { "lat": 13.4, "lng": 80.32, "timestamp": "2026-10-08T14:00:00+05:30", "wind_speed_kmh": 90 }
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "id": "zone-marina",
+      "name": "Marina Coastal Belt",
+      "district": "Chennai Central",
+      "lat": 13.0500,
+      "lng": 80.2824,
+      "elevation_m": 5,
+      "drainage_capacity": "poor",
+      "building_density": "high",
+      "power_grid_exposure": "overhead-exposed",
+      "population_estimate": 160000,
+      "past_cyclone_damage": "Severe beachfront erosion and stall damage during past cyclones"
+    },
+    {
+      "id": "zone-ennore",
+      "name": "Ennore Port Zone",
+      "district": "Thiruvallur",
+      "lat": 13.2146,
+      "lng": 80.3212,
+      "elevation_m": 6,
+      "drainage_capacity": "poor",
+      "building_density": "medium",
+      "power_grid_exposure": "overhead-exposed",
+      "population_estimate": 70000,
+      "past_cyclone_damage": "Port operations disrupted, industrial flooding in past storms"
+    },
+    {
+      "id": "zone-adyar",
+      "name": "Adyar Estuary",
+      "district": "Chennai South",
+      "lat": 13.0067,
+      "lng": 80.2569,
+      "elevation_m": 7,
+      "drainage_capacity": "moderate",
+      "building_density": "high",
+      "power_grid_exposure": "overhead-reinforced",
+      "population_estimate": 140000,
+      "past_cyclone_damage": "Estuary overflow flooding nearby residential streets"
+    },
+    {
+      "id": "zone-velachery",
+      "name": "Velachery Basin",
+      "district": "Chennai South",
+      "lat": 12.9791,
+      "lng": 80.2183,
+      "elevation_m": 6,
+      "drainage_capacity": "moderate",
+      "building_density": "high",
+      "power_grid_exposure": "overhead-exposed",
+      "population_estimate": 220000,
+      "past_cyclone_damage": "Low-lying areas flooded during 2015 Chennai floods"
+    },
+    {
+      "id": "zone-tambaram",
+      "name": "Tambaram Residential",
+      "district": "Chengalpattu",
+      "lat": 12.9249,
+      "lng": 80.1000,
+      "elevation_m": 22,
+      "drainage_capacity": "good",
+      "building_density": "medium",
+      "power_grid_exposure": "overhead-reinforced",
+      "population_estimate": 95000,
+      "past_cyclone_damage": null
+    },
+    {
+      "id": "zone-redhills",
+      "name": "Red Hills Upland",
+      "district": "Thiruvallur",
+      "lat": 13.1900,
+      "lng": 80.1800,
+      "elevation_m": 35,
+      "drainage_capacity": "good",
+      "building_density": "low",
+      "power_grid_exposure": "underground",
+      "population_estimate": 40000,
+      "past_cyclone_damage": null
+    },
+    {
+      "id": "zone-mahabalipuram",
+      "name": "Mahabalipuram Coastal Belt",
+      "district": "Chengalpattu",
+      "lat": 12.6208,
+      "lng": 80.1929,
+      "elevation_m": 4,
+      "drainage_capacity": "poor",
+      "building_density": "medium",
+      "power_grid_exposure": "overhead-exposed",
+      "population_estimate": 45000,
+      "past_cyclone_damage": "Severe roof and power line damage during 2020 Nivar cyclone"
+    },
+    {
+      "id": "zone-anna-nagar",
+      "name": "Anna Nagar Main Drain Belt",
+      "district": "Chennai Central",
+      "lat": 13.0850,
+      "lng": 80.2101,
+      "elevation_m": 9,
+      "drainage_capacity": "poor",
+      "building_density": "high",
+      "power_grid_exposure": "overhead-reinforced",
+      "population_estimate": 180000,
+      "past_cyclone_damage": "Recurring waterlogging and drainage blockage in past monsoons"
+    },
+    {
+      "id": "zone-tnagar",
+      "name": "T Nagar Commercial Zone",
+      "district": "Chennai Central",
+      "lat": 13.0418,
+      "lng": 80.2341,
+      "elevation_m": 11,
+      "drainage_capacity": "moderate",
+      "building_density": "high",
+      "power_grid_exposure": "underground",
+      "population_estimate": 150000,
+      "past_cyclone_damage": "Minor localized flooding in prior events, no major structural damage"
+    },
+    {
+      "id": "zone-ecr",
+      "name": "East Coast Road (ECR) Settlements",
+      "district": "Chengalpattu",
+      "lat": 12.8406,
+      "lng": 80.2364,
+      "elevation_m": 3,
+      "drainage_capacity": "poor",
+      "building_density": "low",
+      "power_grid_exposure": "overhead-exposed",
+      "population_estimate": 28000,
+      "past_cyclone_damage": "Storm surge flooding of low-lying fishing settlements during past cyclones"
+    }
+  ]
+}
